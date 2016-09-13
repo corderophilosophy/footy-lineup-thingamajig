@@ -40,11 +40,26 @@ html {
 
 .topPenaltyArea {
   position: absolute;
-  border: 1px solid white;
-
+  height: 9rem;
+  width: 22rem;
+  background: #d3d3d3d3;
+  position: absolute;
+  border: 1px solid black;
+  top: 0;
+  left: 6rem;
 }
 
-.topSixYardBox {}
+.topSixYardBox {
+  height: 3rem;
+  width: 6rem;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 14rem;
+}
 
 .centerCircle {
   height: 10rem;
