@@ -1,0 +1,20 @@
+{
+  "name": "footy-lineup-thingamajig",
+  "version": "1.0.0",
+  "description": "a simple html/css/js thingamajig of the sort what might be used for a fantasy soccer app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corderophilosophy/footy-lineup-thingamajig.git"
+  },
+  "keywords": [],
+  "author": "Rich Cordero <rich@corderophilosophy.com> (http://corderophilosophy.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corderophilosophy/footy-lineup-thingamajig/issues"
+  },
+  "homepage": "https://github.com/corderophilosophy/footy-lineup-thingamajig#readme"
+}
