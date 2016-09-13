@@ -10,22 +10,46 @@
 
 <body>
   <div class="mainContainer">
-    <div class="pitchContainer">
-      <div class="pitch">
-        <div class="half topHalf">
+    <!-- <div class="pitchContainer flex--center"> -->
+    <div class="pitch">
+      <div class="half topHalf">
+      </div>
+      <div class="topPenaltyArea">
+      </div>
+      <div class="topSixYardBox">
+      </div>
+      <div class="centerCircle"></div>
+      <div class="bottomSixYardBox">
+      </div>
+      <div class="bottomPenaltyArea">
+      </div>
+      <div class="half bottomHalf">
+      </div>
+    </div>
+    <!-- </div> -->
+    <div class="lineupContainer">
+      <div class="formationSelection">
+        <select class="" name="formationSelect">
+          <option value="442" selected>4-4-2</option>
+          <option value="433">4-3-3</option>
+          <option value="4141">4-1-2-1</option>
+        </select>
+      </div>
+      <div class="firstEleven">
+        <div class="gk">
+          <h1>GK:</h1>
         </div>
-        <div class="topPenaltyArea">
+        <div class="def">
+          <h1>DEF:</h1>
         </div>
-        <div class="topSixYardBox">
+        <div class="mid">
+          <h1>MID:</h1>
         </div>
-        <div class="centerCircle"></div>
-        <div class="half bottomHalf">
-        </div>
-        <div class="bottomPenaltyArea">
-        </div>
-        <div class="bottomSixYardBox">
+        <div class="att">
+          <h1>ATT:</h1>
         </div>
       </div>
+      <div class="bench flex--center"></div>
     </div>
   </div>
   <script src="./index.js" charset="utf-8"></script>
