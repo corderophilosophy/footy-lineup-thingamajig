@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+
+
+.mainContainer {
+  background: #d2d2d2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.pitchContainer {
+  background: #cc6a58;
+  padding: 10rem;
+  border-radius: 50%;
+}
+
+.pitch {
+  background: #427c44;
+  border: white 2px solid;
+  height: 52.5rem;
+  width: 34rem;
+  margin: 1rem;
+  position: relative;
+}
+
+.half {
+  height: 50%;
+  width: 100%;
+}
+
+.topHalf {
+  border-bottom: 1px solid white;
+}
+
+.topPenaltyArea {
+  position: absolute;
+  border: 1px solid white;
+
+}
+
+.topSixYardBox {}
+
+.centerCircle {
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid white;
+  border-radius: 100%;
+  position: absolute;
+  top: 21.25rem;
+  left: 12rem;
+}
+
+.bottomHalf {
+  border-top: 1px solid white;
+}
+
+.bottomPenaltyArea {}
+
+.bottomSixYardBox {}
